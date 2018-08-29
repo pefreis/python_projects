@@ -64,13 +64,17 @@ def avaliar_ganhador(jogador_soma, dealer_soma):
     elif jogador_soma<=dealer_soma:
         print("Puxa, você perdeu!")
 
-        #definimos o baralho
+
+
+#definimos o baralho
 baralho=[[i for i in range(1,13+1)],[i for i in range(1,13+1)],[i for i in range(1,13+1)],[i for i in range(1,13+1)]]
 
 #Começando o jogo, imprimindo instruções
 print("Bem vindo ao jogo!")
 nome = str(input("Digite o seu nome para começarmos: "))
 jogador=Jogador(nome)
+
+
 
 #Printamos a carta inicial do Dealer
 print("\n------------------")
