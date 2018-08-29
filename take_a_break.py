@@ -1,8 +1,5 @@
 import webbrowser
 import time
-from datetime import datetime
-
-
 
 while True:
     print("Começando a contagem de jornada de trabalho as "+time.ctime())
